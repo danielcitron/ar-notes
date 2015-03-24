@@ -1,0 +1,256 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'cache', 'clear', '-g' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly ls normalized .
+5 verbose gentlyRm vacuuming /Users/citron/.npm/_locks
+6 verbose gentlyRm vacuuming /Users/citron/.npm/abbrev
+7 verbose gentlyRm vacuuming /Users/citron/.npm/adm-zip
+8 verbose gentlyRm vacuuming /Users/citron/.npm/amdefine
+9 verbose gentlyRm vacuuming /Users/citron/.npm/ansi-regex
+10 verbose gentlyRm vacuuming /Users/citron/.npm/ansi-styles
+11 verbose gentlyRm vacuuming /Users/citron/.npm/asn1
+12 verbose gentlyRm vacuuming /Users/citron/.npm/assert-plus
+13 verbose gentlyRm vacuuming /Users/citron/.npm/async
+14 verbose gentlyRm vacuuming /Users/citron/.npm/aws-sign2
+15 verbose gentlyRm vacuuming /Users/citron/.npm/bl
+16 verbose gentlyRm vacuuming /Users/citron/.npm/block-stream
+17 verbose gentlyRm vacuuming /Users/citron/.npm/boom
+18 verbose gentlyRm vacuuming /Users/citron/.npm/caseless
+19 verbose gentlyRm vacuuming /Users/citron/.npm/chalk
+20 verbose gentlyRm vacuuming /Users/citron/.npm/coffee-script
+21 verbose gentlyRm vacuuming /Users/citron/.npm/colors
+22 verbose gentlyRm vacuuming /Users/citron/.npm/combined-stream
+23 verbose gentlyRm vacuuming /Users/citron/.npm/commander
+24 verbose gentlyRm vacuuming /Users/citron/.npm/core-util-is
+25 verbose gentlyRm vacuuming /Users/citron/.npm/cryptiles
+26 verbose gentlyRm vacuuming /Users/citron/.npm/css-parse
+27 verbose gentlyRm vacuuming /Users/citron/.npm/ctype
+28 verbose gentlyRm vacuuming /Users/citron/.npm/cycle
+29 verbose gentlyRm vacuuming /Users/citron/.npm/debug
+30 verbose gentlyRm vacuuming /Users/citron/.npm/decompress
+31 verbose gentlyRm vacuuming /Users/citron/.npm/decompress-tar
+32 verbose gentlyRm vacuuming /Users/citron/.npm/decompress-tarbz2
+33 verbose gentlyRm vacuuming /Users/citron/.npm/decompress-targz
+34 verbose gentlyRm vacuuming /Users/citron/.npm/decompress-unzip
+35 verbose gentlyRm vacuuming /Users/citron/.npm/deep-equal
+36 verbose gentlyRm vacuuming /Users/citron/.npm/delayed-stream
+37 verbose gentlyRm vacuuming /Users/citron/.npm/each-async
+38 verbose gentlyRm vacuuming /Users/citron/.npm/escape-string-regexp
+39 verbose gentlyRm vacuuming /Users/citron/.npm/eyes
+40 verbose gentlyRm vacuuming /Users/citron/.npm/forever-agent
+41 verbose gentlyRm vacuuming /Users/citron/.npm/form-data
+42 verbose gentlyRm vacuuming /Users/citron/.npm/fs-extra
+43 verbose gentlyRm vacuuming /Users/citron/.npm/fstream
+44 verbose gentlyRm vacuuming /Users/citron/.npm/get-stdin
+45 verbose gentlyRm vacuuming /Users/citron/.npm/glob
+46 verbose gentlyRm vacuuming /Users/citron/.npm/graceful-fs
+47 verbose gentlyRm vacuuming /Users/citron/.npm/has-ansi
+48 verbose gentlyRm vacuuming /Users/citron/.npm/has-color
+49 verbose gentlyRm vacuuming /Users/citron/.npm/hawk
+50 verbose gentlyRm vacuuming /Users/citron/.npm/hoek
+51 verbose gentlyRm vacuuming /Users/citron/.npm/http-signature
+52 verbose gentlyRm vacuuming /Users/citron/.npm/i
+53 verbose gentlyRm vacuuming /Users/citron/.npm/inherits
+54 verbose gentlyRm vacuuming /Users/citron/.npm/is-absolute
+55 verbose gentlyRm vacuuming /Users/citron/.npm/is-bzip2
+56 verbose gentlyRm vacuuming /Users/citron/.npm/is-gzip
+57 verbose gentlyRm vacuuming /Users/citron/.npm/is-integer
+58 verbose gentlyRm vacuuming /Users/citron/.npm/is-relative
+59 verbose gentlyRm vacuuming /Users/citron/.npm/is-tar
+60 verbose gentlyRm vacuuming /Users/citron/.npm/is-zip
+61 verbose gentlyRm vacuuming /Users/citron/.npm/isarray
+62 verbose gentlyRm vacuuming /Users/citron/.npm/jeet
+63 verbose gentlyRm vacuuming /Users/citron/.npm/json-stringify-safe
+64 verbose gentlyRm vacuuming /Users/citron/.npm/jsonfile
+65 verbose gentlyRm vacuuming /Users/citron/.npm/lru-cache
+66 verbose gentlyRm vacuuming /Users/citron/.npm/mime-db
+67 verbose gentlyRm vacuuming /Users/citron/.npm/mime-types
+68 verbose gentlyRm vacuuming /Users/citron/.npm/minimatch
+69 verbose gentlyRm vacuuming /Users/citron/.npm/minimist
+70 verbose gentlyRm vacuuming /Users/citron/.npm/mkdirp
+71 verbose gentlyRm vacuuming /Users/citron/.npm/ms
+72 verbose gentlyRm vacuuming /Users/citron/.npm/mute-stream
+73 verbose gentlyRm vacuuming /Users/citron/.npm/ncp
+74 verbose gentlyRm vacuuming /Users/citron/.npm/nib
+75 verbose gentlyRm vacuuming /Users/citron/.npm/node-uuid
+76 verbose gentlyRm vacuuming /Users/citron/.npm/nomnom
+77 verbose gentlyRm vacuuming /Users/citron/.npm/nopt
+78 verbose gentlyRm vacuuming /Users/citron/.npm/oauth-sign
+79 verbose gentlyRm vacuuming /Users/citron/.npm/onetime
+80 verbose gentlyRm vacuuming /Users/citron/.npm/orion-cli
+81 verbose gentlyRm vacuuming /Users/citron/.npm/pkginfo
+82 verbose gentlyRm vacuuming /Users/citron/.npm/prompt
+83 verbose gentlyRm vacuuming /Users/citron/.npm/punycode
+84 verbose gentlyRm vacuuming /Users/citron/.npm/qs
+85 verbose gentlyRm vacuuming /Users/citron/.npm/read
+86 verbose gentlyRm vacuuming /Users/citron/.npm/readable-stream
+87 verbose gentlyRm vacuuming /Users/citron/.npm/registry.npmjs.org
+88 verbose gentlyRm vacuuming /Users/citron/.npm/request
+89 verbose gentlyRm vacuuming /Users/citron/.npm/revalidator
+90 verbose gentlyRm vacuuming /Users/citron/.npm/rimraf
+91 verbose gentlyRm vacuuming /Users/citron/.npm/sax
+92 verbose gentlyRm vacuuming /Users/citron/.npm/seek-bzip
+93 verbose gentlyRm vacuuming /Users/citron/.npm/set-immediate-shim
+94 verbose gentlyRm vacuuming /Users/citron/.npm/setimmediate
+95 verbose gentlyRm vacuuming /Users/citron/.npm/sigmund
+96 verbose gentlyRm vacuuming /Users/citron/.npm/simple-bufferstream
+97 verbose gentlyRm vacuuming /Users/citron/.npm/sntp
+98 verbose gentlyRm vacuuming /Users/citron/.npm/source-map
+99 verbose gentlyRm vacuuming /Users/citron/.npm/stack-trace
+100 verbose gentlyRm vacuuming /Users/citron/.npm/string_decoder
+101 verbose gentlyRm vacuuming /Users/citron/.npm/stringstream
+102 verbose gentlyRm vacuuming /Users/citron/.npm/strip-ansi
+103 verbose gentlyRm vacuuming /Users/citron/.npm/strip-dirs
+104 verbose gentlyRm vacuuming /Users/citron/.npm/stylus
+105 verbose gentlyRm vacuuming /Users/citron/.npm/sugar
+106 verbose gentlyRm vacuuming /Users/citron/.npm/supports-color
+107 verbose gentlyRm vacuuming /Users/citron/.npm/tar
+108 verbose gentlyRm vacuuming /Users/citron/.npm/temp-write
+109 verbose gentlyRm vacuuming /Users/citron/.npm/tough-cookie
+110 verbose gentlyRm vacuuming /Users/citron/.npm/transfer
+111 verbose gentlyRm vacuuming /Users/citron/.npm/transfer-github
+112 verbose gentlyRm vacuuming /Users/citron/.npm/tunnel-agent
+113 verbose gentlyRm vacuuming /Users/citron/.npm/underscore
+114 verbose gentlyRm vacuuming /Users/citron/.npm/utile
+115 verbose gentlyRm vacuuming /Users/citron/.npm/uuid
+116 verbose gentlyRm vacuuming /Users/citron/.npm/ware
+117 verbose gentlyRm vacuuming /Users/citron/.npm/winston
+118 silly gentlyRm purging /Users/citron/.npm/_locks
+119 silly gentlyRm purging /Users/citron/.npm/amdefine
+120 silly gentlyRm purging /Users/citron/.npm/abbrev
+121 silly gentlyRm purging /Users/citron/.npm/adm-zip
+122 silly gentlyRm purging /Users/citron/.npm/ansi-regex
+123 silly gentlyRm purging /Users/citron/.npm/ansi-styles
+124 silly gentlyRm purging /Users/citron/.npm/asn1
+125 silly gentlyRm purging /Users/citron/.npm/assert-plus
+126 silly gentlyRm purging /Users/citron/.npm/async
+127 silly gentlyRm purging /Users/citron/.npm/aws-sign2
+128 silly gentlyRm purging /Users/citron/.npm/block-stream
+129 silly gentlyRm purging /Users/citron/.npm/bl
+130 silly gentlyRm purging /Users/citron/.npm/boom
+131 silly gentlyRm purging /Users/citron/.npm/caseless
+132 silly gentlyRm purging /Users/citron/.npm/chalk
+133 silly gentlyRm purging /Users/citron/.npm/coffee-script
+134 silly gentlyRm purging /Users/citron/.npm/combined-stream
+135 silly gentlyRm purging /Users/citron/.npm/colors
+136 silly gentlyRm purging /Users/citron/.npm/commander
+137 silly gentlyRm purging /Users/citron/.npm/core-util-is
+138 silly gentlyRm purging /Users/citron/.npm/css-parse
+139 silly gentlyRm purging /Users/citron/.npm/cryptiles
+140 silly gentlyRm purging /Users/citron/.npm/ctype
+141 silly gentlyRm purging /Users/citron/.npm/debug
+142 silly gentlyRm purging /Users/citron/.npm/cycle
+143 silly gentlyRm purging /Users/citron/.npm/decompress
+144 silly gentlyRm purging /Users/citron/.npm/decompress-tar
+145 silly gentlyRm purging /Users/citron/.npm/decompress-tarbz2
+146 silly gentlyRm purging /Users/citron/.npm/decompress-targz
+147 silly gentlyRm purging /Users/citron/.npm/decompress-unzip
+148 silly gentlyRm purging /Users/citron/.npm/deep-equal
+149 silly gentlyRm purging /Users/citron/.npm/delayed-stream
+150 silly gentlyRm purging /Users/citron/.npm/each-async
+151 silly gentlyRm purging /Users/citron/.npm/escape-string-regexp
+152 silly gentlyRm purging /Users/citron/.npm/eyes
+153 silly gentlyRm purging /Users/citron/.npm/forever-agent
+154 silly gentlyRm purging /Users/citron/.npm/form-data
+155 silly gentlyRm purging /Users/citron/.npm/fs-extra
+156 silly gentlyRm purging /Users/citron/.npm/fstream
+157 silly gentlyRm purging /Users/citron/.npm/glob
+158 silly gentlyRm purging /Users/citron/.npm/get-stdin
+159 silly gentlyRm purging /Users/citron/.npm/graceful-fs
+160 silly gentlyRm purging /Users/citron/.npm/has-ansi
+161 silly gentlyRm purging /Users/citron/.npm/has-color
+162 silly gentlyRm purging /Users/citron/.npm/hawk
+163 silly gentlyRm purging /Users/citron/.npm/hoek
+164 silly gentlyRm purging /Users/citron/.npm/http-signature
+165 silly gentlyRm purging /Users/citron/.npm/i
+166 silly gentlyRm purging /Users/citron/.npm/inherits
+167 silly gentlyRm purging /Users/citron/.npm/is-absolute
+168 silly gentlyRm purging /Users/citron/.npm/is-bzip2
+169 silly gentlyRm purging /Users/citron/.npm/is-gzip
+170 silly gentlyRm purging /Users/citron/.npm/is-integer
+171 silly gentlyRm purging /Users/citron/.npm/is-relative
+172 silly gentlyRm purging /Users/citron/.npm/is-tar
+173 silly gentlyRm purging /Users/citron/.npm/is-zip
+174 silly gentlyRm purging /Users/citron/.npm/isarray
+175 silly gentlyRm purging /Users/citron/.npm/jeet
+176 silly gentlyRm purging /Users/citron/.npm/json-stringify-safe
+177 silly gentlyRm purging /Users/citron/.npm/lru-cache
+178 silly gentlyRm purging /Users/citron/.npm/jsonfile
+179 silly gentlyRm purging /Users/citron/.npm/mime-db
+180 silly gentlyRm purging /Users/citron/.npm/mime-types
+181 silly gentlyRm purging /Users/citron/.npm/minimatch
+182 silly gentlyRm purging /Users/citron/.npm/minimist
+183 silly gentlyRm purging /Users/citron/.npm/mkdirp
+184 silly gentlyRm purging /Users/citron/.npm/ms
+185 silly gentlyRm purging /Users/citron/.npm/mute-stream
+186 silly gentlyRm purging /Users/citron/.npm/ncp
+187 silly gentlyRm purging /Users/citron/.npm/nib
+188 silly gentlyRm purging /Users/citron/.npm/node-uuid
+189 silly gentlyRm purging /Users/citron/.npm/nomnom
+190 silly gentlyRm purging /Users/citron/.npm/nopt
+191 silly gentlyRm purging /Users/citron/.npm/oauth-sign
+192 silly gentlyRm purging /Users/citron/.npm/onetime
+193 silly gentlyRm purging /Users/citron/.npm/orion-cli
+194 silly gentlyRm purging /Users/citron/.npm/pkginfo
+195 silly gentlyRm purging /Users/citron/.npm/prompt
+196 silly gentlyRm purging /Users/citron/.npm/punycode
+197 silly gentlyRm purging /Users/citron/.npm/qs
+198 silly gentlyRm purging /Users/citron/.npm/read
+199 silly gentlyRm purging /Users/citron/.npm/readable-stream
+200 silly gentlyRm purging /Users/citron/.npm/registry.npmjs.org
+201 silly gentlyRm purging /Users/citron/.npm/request
+202 silly gentlyRm purging /Users/citron/.npm/revalidator
+203 silly gentlyRm purging /Users/citron/.npm/rimraf
+204 silly gentlyRm purging /Users/citron/.npm/sax
+205 silly gentlyRm purging /Users/citron/.npm/seek-bzip
+206 silly gentlyRm purging /Users/citron/.npm/set-immediate-shim
+207 silly gentlyRm purging /Users/citron/.npm/setimmediate
+208 silly gentlyRm purging /Users/citron/.npm/sigmund
+209 silly gentlyRm purging /Users/citron/.npm/simple-bufferstream
+210 silly gentlyRm purging /Users/citron/.npm/sntp
+211 silly gentlyRm purging /Users/citron/.npm/source-map
+212 silly gentlyRm purging /Users/citron/.npm/stack-trace
+213 silly gentlyRm purging /Users/citron/.npm/string_decoder
+214 silly gentlyRm purging /Users/citron/.npm/stringstream
+215 silly gentlyRm purging /Users/citron/.npm/strip-ansi
+216 silly gentlyRm purging /Users/citron/.npm/strip-dirs
+217 silly gentlyRm purging /Users/citron/.npm/stylus
+218 silly gentlyRm purging /Users/citron/.npm/sugar
+219 silly gentlyRm purging /Users/citron/.npm/supports-color
+220 silly gentlyRm purging /Users/citron/.npm/tar
+221 silly gentlyRm purging /Users/citron/.npm/temp-write
+222 silly gentlyRm purging /Users/citron/.npm/tough-cookie
+223 silly gentlyRm purging /Users/citron/.npm/transfer
+224 silly gentlyRm purging /Users/citron/.npm/transfer-github
+225 silly gentlyRm purging /Users/citron/.npm/tunnel-agent
+226 silly gentlyRm purging /Users/citron/.npm/underscore
+227 silly gentlyRm purging /Users/citron/.npm/utile
+228 silly gentlyRm purging /Users/citron/.npm/uuid
+229 silly gentlyRm purging /Users/citron/.npm/ware
+230 silly gentlyRm purging /Users/citron/.npm/winston
+231 silly gentlyRm quitting because other entries in /Users/citron/.npm
+232 silly gentlyRm quitting because other entries in /Users/citron/.npm
+233 silly gentlyRm quitting because other entries in /Users/citron/.npm
+234 silly gentlyRm quitting because other entries in /Users/citron/.npm
+235 silly gentlyRm quitting because other entries in /Users/citron/.npm
+236 silly gentlyRm quitting because other entries in /Users/citron/.npm
+237 silly gentlyRm quitting because other entries in /Users/citron/.npm
+238 verbose stack Error: EACCES, unlink '/Users/citron/.npm/amdefine/0.1.0'
+238 verbose stack     at Error (native)
+239 verbose cwd /Users/citron/Google Drive/MIT Media Lab/Spring 2015/Glass Note Taking App/Code/css
+240 error Darwin 14.1.0
+241 error argv "node" "/usr/local/bin/npm" "cache" "clear" "-g"
+242 error node v0.12.0
+243 error npm  v2.5.1
+244 error path /Users/citron/.npm/amdefine/0.1.0
+245 error code EACCES
+246 error errno -13
+247 error Error: EACCES, unlink '/Users/citron/.npm/amdefine/0.1.0'
+247 error     at Error (native)
+247 error  { [Error: EACCES, unlink '/Users/citron/.npm/amdefine/0.1.0']
+247 error   errno: -13,
+247 error   code: 'EACCES',
+247 error   path: '/Users/citron/.npm/amdefine/0.1.0' }
+248 error Please try running this command again as root/Administrator.
+249 verbose exit [ -13, true ]
