@@ -13,10 +13,50 @@ body .side-column {
   float: left;
   height: 100%;
   background: #000;
+  position: relative;
+  -webkit-transition: 0.25s ease all;
+  -moz-transition: 0.25s ease all;
+  -o-transition: 0.25s ease all;
+  -ms-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+body .side-column.expanded {
+  width: 100%;
+}
+body .side-column.gone {
+  display: none;
 }
 body .side-column .bookmark {
   width: 70%;
   margin: 0 15%;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: 0.25s ease all;
+  -moz-transition: 0.25s ease all;
+  -o-transition: 0.25s ease all;
+  -ms-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+body .side-column .bookmark.hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+body .side-column .bookmark.faded {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+body .side-column .bookmark.hidden {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 body .side-column .bookmark-green svg g rect {
   fill: #1d9689;
@@ -33,12 +73,52 @@ body .side-column .bookmark-yellow svg g rect {
 body .side-column .bookmark-red svg g rect {
   fill: #ed4544;
 }
+body .side-column #b1 {
+  top: 20%;
+}
+body .side-column #b2 {
+  top: 45%;
+}
+body .side-column #b3 {
+  top: 80%;
+}
+body .side-column #b4 {
+  top: 35%;
+}
+body .side-column #b5 {
+  top: 70%;
+}
 body #center-column {
   background: #000;
   width: 54%;
   float: left;
   height: 100%;
   position: relative;
+  -webkit-transition: 0.45s ease all;
+  -moz-transition: 0.45s ease all;
+  -o-transition: 0.45s ease all;
+  -ms-transition: 0.45s ease all;
+  transition: 0.45s ease all;
+  -webkit-transform: translate(0, 0%);
+  -moz-transform: translate(0, 0%);
+  -o-transform: translate(0, 0%);
+  -ms-transform: translate(0, 0%);
+  transform: translate(0, 0%);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+body #center-column.hidden {
+  -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+}
+body #center-column.gone {
+  display: none;
 }
 body #center-column #center-header {
   width: 100%;

@@ -1,3 +1,5 @@
+@import 'nib'
+
 //colors
 $gray = #AAAAAA
 $green = #1D9689
@@ -6,6 +8,11 @@ $orange = #ED4544
 $yellow = #FCC032
 $red = #ED4544
 
+
+//animation
+$easeOut   = cubic-bezier(0.190, 1.000, 0.220, 1.000)
+$easeIn   = cubic-bezier(0.950, 0.050, 0.795, 0.035)
+$easeInOut = cubic-bezier(1.000, 0.000, 0.000, 1.000)
 
 body
 	width 100%
@@ -21,10 +28,30 @@ body
 		float left
 		height 100%
 		background black
+		position relative
+		transition .25s ease all
+		
+		&.expanded
+			width 100%
+		&.gone
+			display none
 		
 		.bookmark
 			width 70%
 			margin 0 15%
+			height 40px
+			overflow hidden
+			position absolute
+			opacity 1
+			transition .25s ease all
+			
+			&.hover
+				transform scale(1.5)
+			&.faded
+				opacity .5
+			&.hidden
+				opacity 0
+
 		
 		.bookmark-green svg g rect
 			fill $green
@@ -36,7 +63,17 @@ body
 			fill $yellow
 		.bookmark-red svg g rect
 			fill $red
-						
+		
+		#b1
+			top: 20%
+		#b2
+			top 45%
+		#b3
+			top 80%	
+		#b4
+			top 35%
+		#b5
+			top 70%
 			
 	#center-column
 		background black
@@ -44,6 +81,15 @@ body
 		float left
 		height 100%
 		position relative
+		transition .45s ease all
+		transform translate(0, 0%)
+		transform translate3d(0,0,0)
+		
+		&.hidden
+			transform translate(0, 100%)
+			
+		&.gone
+			display none
 		
 		#center-header
 			width 100%
