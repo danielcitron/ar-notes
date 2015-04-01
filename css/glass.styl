@@ -27,9 +27,17 @@ body
 		position absolute
 		overflow hidden
 		height 100px
-		top 20%
+		top 0px
 		opacity 0
 		z-index 100
+		transform translateY(0%)
+		transition all .25s ease
+		
+		img
+			top 0
+			left 0
+			transform translateY(0%)
+			transition all .25s ease
 	.side-column
 		width 23%
 		float left
@@ -93,7 +101,7 @@ body
 			fill $red
 		
 		#b1
-			top: 20%
+			top 20%
 		#b2
 			top 45%
 		#b3
