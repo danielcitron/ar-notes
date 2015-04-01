@@ -8,6 +8,13 @@ body h1 {
   font-size: 18pt;
   font-weight: 300;
 }
+body .page-preview {
+  width: 40%;
+  position: absolute;
+  overflow: hidden;
+  height: 40px;
+  top: 20%;
+}
 body .side-column {
   width: 23%;
   float: left;
