@@ -14,11 +14,11 @@ body .side-column {
   height: 100%;
   background: #000;
   position: relative;
-  -webkit-transition: 0.25s ease all;
-  -moz-transition: 0.25s ease all;
-  -o-transition: 0.25s ease all;
-  -ms-transition: 0.25s ease all;
-  transition: 0.25s ease all;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 body .side-column.expanded {
   width: 100%;
@@ -35,11 +35,11 @@ body .side-column .bookmark {
   opacity: 1;
   -ms-filter: none;
   filter: none;
-  -webkit-transition: 0.25s ease all;
-  -moz-transition: 0.25s ease all;
-  -o-transition: 0.25s ease all;
-  -ms-transition: 0.25s ease all;
-  transition: 0.25s ease all;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 body .side-column .bookmark.hover {
   -webkit-transform: scale(1.5);
@@ -57,6 +57,38 @@ body .side-column .bookmark.hidden {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+}
+body .side-column .bookmark.selected-left {
+  top: 5%;
+  margin: 0 0;
+  left: 5%;
+}
+body .side-column .bookmark.selected-right {
+  margin: 0 0;
+  top: 5%;
+  right: 5%;
+}
+body .side-column .note-content {
+  width: 90%;
+  height: 90%;
+  margin: 5% 5%;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+body .side-column .note-content.hidden {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+body .side-column .note-content p {
+  color: #fff;
+  font-size: 18pt;
 }
 body .side-column .bookmark-green svg g rect {
   fill: #1d9689;
@@ -94,11 +126,11 @@ body #center-column {
   float: left;
   height: 100%;
   position: relative;
-  -webkit-transition: 0.45s ease all;
-  -moz-transition: 0.45s ease all;
-  -o-transition: 0.45s ease all;
-  -ms-transition: 0.45s ease all;
-  transition: 0.45s ease all;
+  -webkit-transition: all 0.45s ease;
+  -moz-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  -ms-transition: all 0.45s ease;
+  transition: all 0.45s ease;
   -webkit-transform: translate(0, 0%);
   -moz-transform: translate(0, 0%);
   -o-transform: translate(0, 0%);

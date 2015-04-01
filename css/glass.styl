@@ -29,7 +29,7 @@ body
 		height 100%
 		background black
 		position relative
-		transition .25s ease all
+		transition all .25s ease
 		
 		&.expanded
 			width 100%
@@ -43,7 +43,7 @@ body
 			overflow hidden
 			position absolute
 			opacity 1
-			transition .25s ease all
+			transition all .25s ease
 			
 			&.hover
 				transform scale(1.5)
@@ -51,8 +51,29 @@ body
 				opacity .5
 			&.hidden
 				opacity 0
+			&.selected-left
+				top 5%
+				margin 0 0
+				left 5%
+			&.selected-right
+				margin 0 0
+				top 5%
+				right 5%
 
-		
+		.note-content
+			width 90%
+			height 90%
+			margin 5% 5%
+			opacity 1
+			transition opacity .25s ease 
+			
+			&.hidden
+				opacity 0
+			
+			p
+				color white
+				font-size 18pt
+				
 		.bookmark-green svg g rect
 			fill $green
 		.bookmark-purple svg g rect
@@ -81,7 +102,7 @@ body
 		float left
 		height 100%
 		position relative
-		transition .45s ease all
+		transition all .45s ease
 		transform translate(0, 0%)
 		transform translate3d(0,0,0)
 		
